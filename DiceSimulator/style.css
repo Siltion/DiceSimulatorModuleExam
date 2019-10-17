@@ -1,0 +1,38 @@
+html {
+    background-image: url('images/dice-background.jpg');
+    background-size: cover;
+}
+
+body {
+    margin: 0 auto;
+    width: 800px;
+    padding: 25px 75px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-family: 'Cormorant Unicase', serif;
+    text-align: center;
+}
+
+table {
+    font-size: 30px;
+    padding: 30px;
+}
+
+td {
+    padding: 30px;
+}
+
+#funds {
+    font-size: 40px;
+    color: green;
+    font-weight: bold;
+}
+
+button {
+    padding: 5px 15px;
+}
+
+input {
+    height: 23px;
+    margin-right: 10px;
+    margin-left: 10px;
+}

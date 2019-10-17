@@ -1,0 +1,29 @@
+Part 1: The Dice Game (40%)
+When the 'Play' button is clicked:
+    - A random die is show (1-6) for the house
+    - A different (but still random) die is shown for the player
+    - If the player's roll is higher than the house, the player's bet is added to their funds.
+        e.g. If funds is 3500 and the bet is 500. There funds will be 4000.
+    - If the player loses, they subtract the bet from their funds.
+    - If it is a tie, nothing happens.
+
+Part 2: Life of Luxury (40%)
+When the 'Buy Riches & Luxury' button is clicked:
+    - If funds is less than 1000, add the sock image to the loot table
+    - If funds is between 1000 and 5000, randomly add a ring, bike, or trip
+      to the loot table with a 0.33 probability of getting each.
+        - Also, subtract 1000 from the funds and update this to the site.
+    - If funds is over 5000, randomly add a motorcycle, house, boat, or car
+      to the loot table with a 0.25 probability of getting each.
+        - Also, subtract 5000 from the funds and update this to the site.
+
+Part 3: Get Creative (20%)
+Add or change something about the JS code to make the site more interesting.
+Examples:
+    - Add a pair of dice to the game instead of just one
+    - Prevent the funds from going negative
+    - Create a maximum bid amount
+    - ... and many more possibilities!
+
+Code clarity and structure (-10%)
+Your mark can be reduced buy up to 10% if it is messy or you choose poor names for variables/functions
